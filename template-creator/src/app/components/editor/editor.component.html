@@ -1,0 +1,22 @@
+<div class="container p-5">
+    <div class="d-md-flex justify-content-between">
+        <div class="image">
+            <app-post [image]="template.imagePath" [heading]="heading" [discount]="discount"></app-post>
+        </div>
+        <div class="form px-md-5">
+            <form action="" class="text-start">
+                <div>
+                    <p>Offer Heading</p>
+                    <textarea class="border border-dark rounded mb-3" name="heading" placeholder="Enter Offer Heading" [(ngModel)]="heading">{{heading}}</textarea>
+                </div>
+                <div>
+                    <p>Offer Discount</p>
+                    <textarea class="border border-dark rounded mb-3" name="discount" placeholder="Enter Offer Discount" [(ngModel)]="discount">{{discount}}</textarea>
+                </div>
+                <div>
+                    <button (click)="onSubmit()" class="btn btn-primary">Post</button>
+                </div>
+            </form>
+        </div>
+    </div> 
+</div>

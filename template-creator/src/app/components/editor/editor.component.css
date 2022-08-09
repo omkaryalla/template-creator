@@ -1,0 +1,22 @@
+.image{
+    width: 60%;
+}
+
+.form{
+    width: 40%;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    .image{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    
+}

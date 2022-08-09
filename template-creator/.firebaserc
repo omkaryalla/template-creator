@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "template-creator-44a27": {
+      "hosting": {
+        "template-creator": [
+          "template-creator-44a27"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "template-creator-44a27"
+  }
+}
